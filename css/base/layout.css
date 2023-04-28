@@ -1,0 +1,67 @@
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.column-left {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+
+.partners {
+    padding: 15px 10px;
+}
+
+.short-row {
+    padding: 10px 20px;
+}
+
+.meeting {
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.meeting p {
+    margin-top: 20px;    
+}
+
+.meeting-img {
+    width: 100%;
+}
+
+.creative {
+    margin-top: 50px;
+}
+
+.creative-img {
+    width: 100%;
+}
+
+.creative {
+    margin-top: 90px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.creative p {
+    margin-top: 20px;    
+}
+
+.talents {
+    margin-top: 30px;
+}
+
+.talents-img {
+    width: 100%;
+}

@@ -1,0 +1,19 @@
+/* ateina is base */
+@import '../base/base.css';
+@import '../base/layout.css';
+@import '../pages/hero.css';
+@import '../pages/partners.css';
+@import '../pages/meeting.css';
+@import '../pages/creative.css';
+@import '../pages/talents.css';
+
+/* is 3rd-party */
+
+@font-face {
+    font-family: "Work Sans", sans-serif;
+    src: url("../3rd-party/Work_Sans/WorkSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* is components */

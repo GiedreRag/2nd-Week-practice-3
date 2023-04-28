@@ -1,0 +1,47 @@
+.creative h1 {
+    font-size: 24px;
+}
+
+.creative p {
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    color: gray;
+}
+
+.creative .black-button {
+    position: absolute; 
+    margin-top: 18px;  
+}
+
+@media (min-width: 550px) {
+    .creative {
+        margin-top: 60px;
+    }
+
+    .creative-img {
+        padding-top: 40px;
+        width: 90%
+    }
+
+    .creative-column {
+        width: 90%;
+    }
+}
+
+@media (min-width: 700px) {
+    .creative {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 10px 60px 40px;
+        margin-top: 0;
+    }
+
+    .creative-img {
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    .creative-column {
+        width: 40%;
+    }
+}

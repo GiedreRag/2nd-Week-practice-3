@@ -1,0 +1,45 @@
+.meeting {
+    display: flex;
+}
+
+.meeting-headline {
+    font-size: 24px;
+}
+
+.meeting p {
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    color: gray;
+}
+
+.meeting .black-button {
+    position: absolute; 
+    margin-top: 18px;     
+}
+
+@media (min-width: 550px) {
+    .meeting-img {
+        width: 90%
+    }
+
+    .meeting .text-column {
+        width: 90%;
+    }
+}
+
+@media (min-width: 700px) {
+    .meeting {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 10px 60px 40px;
+    }
+
+    .meeting .meeting-img {
+        width: 50%;
+        padding-top: 60px;
+    }
+
+    .meeting .text-column {
+        width: 40%;
+    }
+}
