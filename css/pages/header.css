@@ -16,7 +16,7 @@
 }
 
 .hamburger {
-    height: 20%;
+    /*height: 20px;*/
     color: white;
     text-decoration: none;
     margin-left: auto;
@@ -83,7 +83,7 @@
         visibility: visible;
         gap: 20px;
         font-size: 16px;
-        width: 30%;
+        width: auto;
     }
 }
 
@@ -100,6 +100,7 @@
         margin-right: 20%;
     }
 
+    
 }
 
 @media (min-width: 990px) {
@@ -113,6 +114,7 @@
 
     .start-img {
         height: 4%;
+        margin-right: 10%;
     }
 }
 
