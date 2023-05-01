@@ -27,6 +27,10 @@
     width:0;
 }
 
+.topnav > a:hover {
+    color: grey;
+}
+
 @media (min-width: 441px) {
     .header {
         padding: 4% 7%;
