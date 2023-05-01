@@ -27,7 +27,13 @@
 
 .copyright {
     font-family: "Work Sans", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+@media (min-width: 440px) {
+    .copyright {
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 850px) {
