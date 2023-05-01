@@ -43,3 +43,9 @@
         width: 40%;
     }
 }
+
+@media (min-width: 1065px) {
+    .meeting {
+        padding: 1% 9% 2%;
+    }
+}

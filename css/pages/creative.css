@@ -45,3 +45,10 @@
         width: 40%;
     }
 }
+
+@media (min-width: 1065px) {
+    .creative {
+        padding: 1% 9% 2%;
+        /*padding: px 95px 20px;*/
+    }
+}

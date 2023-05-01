@@ -6,8 +6,12 @@
 @import '../pages/meeting.css';
 @import '../pages/creative.css';
 @import '../pages/talents.css';
+@import '../pages/header.css';
+@import '../pages/footer.css';
 
 /* is 3rd-party */
+
+@import '../3rd-party/font-awesome.min.css';
 
 @font-face {
     font-family: "Work Sans", sans-serif;

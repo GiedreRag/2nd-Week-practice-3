@@ -55,25 +55,29 @@
     .hero {
         justify-content: space-between;
         flex-direction: row-reverse;
-        padding: 10px 60px 40px;
+        padding: 10px 60px 50px;
     }
 
     .hero .hero-img {
-        width: 50%;
+        width: 60%;
     }
 
     .hero .column-left {
-        width: 40%;
+        width: 30%;
     }
 }
 
 @media (min-width: 990px) {
     .hero {
-        padding: 10px 90px 50px;
+        padding: 10px 90px 80px;
     }
 
     .hero .column-left {
         width: 30%;
+    }
+
+    .hero-second-headline {
+        font-size: 35px;
     }
 
     .hero .hero-img {
